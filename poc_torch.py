@@ -23,7 +23,7 @@ for i in range(0, 10000):
         x -= learning_rate * x.grad
         x.grad.zero_()  # potrebno svaki put gradijente postaviti na 0 jer se akumuliraju
     if i % 10 == 0:
-        print(f'{i/100}% | {x}')
+        print(f'{i/100}% | {x[0]}')
         
 # trazeni y = 3; funkcija y = x + 1; ML-om ucimo varijablu x.
 # y = x + 1; 1.99999 + 1 = 3
