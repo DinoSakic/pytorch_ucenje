@@ -24,4 +24,3 @@ for i in range(0, 10000):
         x.grad.zero_()  # potrebno svaki put gradijente postaviti na 0 jer se akumuliraju
     if i % 10 == 0:
         print(f'{i/100}% | {x}')
-print(x)
