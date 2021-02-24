@@ -1,2 +1,2 @@
 # pytorch_ucenje
-Fajl za projekte radjene u pytorchu.
+Fajl za projekte radjene sa pytorchom: Neuronske mreze.
